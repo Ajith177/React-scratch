@@ -1,0 +1,16 @@
+Converting the objects into Array...
+
+let z={
+    height:"160",
+        weight:"60",
+        name:"Ajithganapathy",
+        Location:"Manaparai",
+        Work:"Zybisys",
+}
+
+let array=[];
+
+for(let key in z){
+    array.push([key, z[key]]);
+}
+console.log(array)
